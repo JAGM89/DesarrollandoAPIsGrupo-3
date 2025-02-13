@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req,res) => {
-    res.send('[{"id" : 1, "nombre":"Laptop","precio":1200}]');
+    res.json('[{"id" : 1, "nombre":"Laptop","precio":1200}]');
 });
 
 
